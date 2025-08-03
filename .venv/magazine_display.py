@@ -15,7 +15,7 @@ import configparser
 Config.set('graphics', 'multisamples', '0')  # Optimize rendering
 Config.set('graphics', 'width', '3840')      # Set width to 4K for testing
 Config.set('graphics', 'height', '2160')     # Set height to 4K for testing
-Config.set('graphics', 'fullscreen', '0')    # Set to '0' for testing in PyCharm, 'auto' for Pi
+Config.set('graphics', 'fullscreen', 'auto')    # Set to '0' for testing in PyCharm, 'auto' for Pi
 
 class MagazineGrid(GridLayout):
     def __init__(self, image_dir, flip_interval, **kwargs):
