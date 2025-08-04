@@ -13,17 +13,18 @@ A Kivy-based application that displays a 4x10 grid of images with animated trans
    cd MagazineDisplay
    
 2. Create a virtual environment and activate it:
-    python -m venv venv/bin/activate # On Windows: venv\Scripts\activate
+    python -m venv venv
+    source/bin/activate # On Windows: venv\Scripts\activate
 
-3. Install dependencies:
+4. Install dependencies:
     pip install -r requirements.txt
 
-4. Configure the image directory and interval in config.ini:
+5. Configure the image directory and interval in config.ini:
     Edit config.ini to point to your image directory
 
    [Settings]
    image_dir = /path/to/your/images
    flip_interval = 20.0
 
-5. Run the application:
+6. Run the application:
     python magazine_display.py
